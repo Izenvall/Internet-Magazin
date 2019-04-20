@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>PageServlet</servlet-name>
+    <servlet-class>Dynamics.PageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PageServlet</servlet-name>
+    <url-pattern>/page</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -1,4 +1,5 @@
-<html lang="en">
+<%@page pageEncoding="UTF-8"%>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,4 +10,5 @@
 <canvas id="canvas" width="288" height="512"></canvas>
 </body>
 <script src="/FlappyBird/flappy.js"></script>
+<%request.setCharacterEncoding("UTF-8");%>
 </html>

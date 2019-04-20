@@ -7,18 +7,18 @@ var fg = new Image();
 var pipeUp = new Image();
 var pipeBottom = new Image();
 
-bird.src = "bird.png";
-bg.src = "bg.png";
-fg.src = "fg.png";
-pipeUp.src = "pipeUp.png";
-pipeBottom.src = "pipeBottom.png";
+bird.src = "/FlappyBird/bird.png";
+bg.src = "/FlappyBird/bg.png";
+fg.src = "/FlappyBird/fg.png";
+pipeUp.src = "/FlappyBird/pipeUp.png";
+pipeBottom.src = "/FlappyBird/pipeBottom.png";
 
 // Звуковые файлы
 var fly = new Audio();
 var score_audio = new Audio();
 
-fly.src = "fly.mp3";
-score_audio.src = "score.mp3";
+fly.src = "/FlappyBird/fly.mp3";
+score_audio.src = "/FlappyBird/score.mp3";
 
 var gap = 90;
 
